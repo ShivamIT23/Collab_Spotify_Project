@@ -2,3 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;
+}
+
+.div-nav {
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo {
+    background-image: url(logo.png);
+    height: 10vmin;
+    width: 8vmin;
+    background-size: cover;
+    background-color: rgb(14, 13, 13);
+    border-radius: 50%;
+}
+
+.div-home {
+    height: 6vmin;
+    width: 20vmin;
+    background-color: rgb(219, 20, 20);
+}
+.div-Signin {
+    height: 6vmin;
+    width: 20vmin;
+    background-color: rgb(141, 42, 42);
+}
+.div-Login{
+    height: 6vmin;
+    width: 20vmin;
+    background-color: rgb(177, 48, 48);
+}
