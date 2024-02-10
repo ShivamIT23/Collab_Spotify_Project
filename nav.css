@@ -45,7 +45,11 @@ a{
     display: inline-block;
     height: 100dvh;
     z-index: 20;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+
+#navbar2:hover{
+    visibility: visible;
 }
 
 .list2{
