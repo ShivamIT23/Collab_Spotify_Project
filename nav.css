@@ -45,9 +45,11 @@ a{
     display: inline-block;
     height: 100dvh;
     z-index: 20;
+    /* visibility: hidden; */
 }
 
 .list2{
+    font-size: larger;
     display: grid;
     grid-template-rows: auto auto auto auto auto;
 }
