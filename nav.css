@@ -31,3 +31,33 @@ a{
 .item2{
     align-self: center;
 }
+
+.item1{
+    width: 300px;
+}
+
+#navbar2{
+    position: fixed;
+    top: 0px;
+    width: 15dvw;
+    background-color:#0c0e0e;
+    color: rgb(255, 254, 254);
+    display: inline-block;
+    height: 100dvh;
+    z-index: 20;
+}
+
+.list2{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+
+
+
+
+@media (max-width: 600px){
+    .item1{
+        width: 100px;
+    }
+}
