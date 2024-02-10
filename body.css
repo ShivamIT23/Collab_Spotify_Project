@@ -1,0 +1,33 @@
+/* //////////////      main body css            /////////////*/
+
+
+.main-body {
+    height: 110vh;
+    background-color: rgb(47, 233, 202); 
+}
+
+.div-row {
+    border: 3vmin solid rgb(47, 233, 202);
+    height: 30vmin;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.div-song-continer {
+    border: .3vmin solid black;
+    height: 20vmin;
+    width: 25vmin;
+    background-color: rgb(87, 231, 133);
+}
+
+/* testing perpose  */
+.img { 
+    background-image: url(/image/img1.jpg);
+    background-size: cover;
+}
+
+/* rest imgaes will be put by js */
