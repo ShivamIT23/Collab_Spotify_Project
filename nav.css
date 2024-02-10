@@ -39,7 +39,7 @@ a{
 #navbar2{
     position: fixed;
     top: 0px;
-    width: 15dvw;
+    width: auto;
     background-color:#0c0e0e;
     color: rgb(255, 254, 254);
     display: inline-block;
@@ -54,6 +54,24 @@ a{
     grid-template-rows: auto auto auto auto auto;
 }
 
+.logo,.box1,.box2,.box3,.box4{
+    font-size: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin: 5px 32px 40px 8px;
+}
+
+.box1,.box2,.box3,.box4{
+    margin: 5px 25px 40px 15px;
+}
+
+img{
+    border-radius: 30%;
+}
 
 
 
