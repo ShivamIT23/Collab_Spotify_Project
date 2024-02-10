@@ -45,6 +45,10 @@ a{
     /* visibility: hidden; */
 }
 
+#navbar: hover{
+    visibility:none;
+}
+
 .list2{
     font-size: larger;
     display: grid;
