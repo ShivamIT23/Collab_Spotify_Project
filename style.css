@@ -44,7 +44,7 @@ a{
 
 
 .main-body {
-    height: 90vh;
+    height: 110vh;
     background-color: rgb(47, 233, 202); 
 }
 
@@ -70,4 +70,33 @@ a{
 .img { 
     background-image: url(/image/img1.jpg);
     background-size: cover;
+}
+
+/* rest imgaes will be put by js */
+
+/*                             footer                        */ 
+
+.div-footer {
+    height: 25vh;
+    background-color: rgb(63, 63, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-footer-main {
+    display: flex;
+    width: 90%;
+    height: 18vmin;
+    /* background-color: rgb(255, 184, 91); */
+    flex-direction : column;
+}
+.footer-text {
+    font-size: 3vmin;
+    margin: 1vmin;
+    margin-left: 40vmin;
+    color: white;
+    gap: 5vmin;
+
 }
