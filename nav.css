@@ -59,6 +59,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -68,6 +69,7 @@ a{
 .box1,.box2,.box3,.box4{
     margin: 5px 25px 40px 15px;
 }
+
 
 img{
     border-radius: 30%;
