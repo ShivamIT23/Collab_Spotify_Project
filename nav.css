@@ -1,0 +1,33 @@
+.list{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+    font-size: larger;
+    /* height: 38px; */
+    min-height: 40px;
+    max-height: 4dvh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.item6{
+    /* justify-self: end; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item6-1{
+    align-self: center;
+}
+
+.item6-2{
+    align-self: center;
+}
+
+.item2{
+    align-self: center;
+}
