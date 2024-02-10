@@ -9,6 +9,10 @@
     max-height: 4dvh;
 }
 
+.navbar1{
+    width: 16dvw;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -33,7 +37,7 @@ a{
 }
 
 #navbar2{
-    /* visibility: hidden; */
+    visibility: hidden;
     position: fixed;
     top: 0px;
     width: auto;
@@ -68,15 +72,19 @@ a{
 }
 
 .navbar2-music{
+    width: 100%;
     position: absolute;
     top: 63%;
     z-index: -5;
 }
 
-/* img{
+img{
     border-radius: 30%;
-} */
+}
 
+.navbar2-music{
+    border-radius: 0%;
+}
 
 
 
