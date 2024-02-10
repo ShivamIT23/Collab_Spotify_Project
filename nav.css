@@ -33,7 +33,7 @@ a{
 }
 
 #navbar2{
-    visibility: hidden;
+    /* visibility: hidden; */
     position: fixed;
     top: 0px;
     width: auto;
@@ -48,6 +48,7 @@ a{
     font-size: larger;
     display: grid;
     grid-template-rows: auto auto auto auto auto;
+    width: 12dvw;
 }
 
 .logo,.box1,.box2,.box3,.box4{
@@ -59,17 +60,22 @@ a{
 }
 
 .logo{
-    margin: 5px 32px 40px 8px;
+    margin: 5px 32px 80px 8px;
 }
 
 .box1,.box2,.box3,.box4{
     margin: 5px 25px 40px 15px;
 }
 
-
-img{
-    border-radius: 30%;
+.navbar2-music{
+    position: absolute;
+    top: 63%;
+    z-index: -5;
 }
+
+/* img{
+    border-radius: 30%;
+} */
 
 
 
