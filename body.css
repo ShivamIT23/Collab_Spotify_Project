@@ -7,9 +7,9 @@
 }
 
 .div-row {
-    border: 3vmin solid rgb(47, 233, 202);
+    border: 3vmin solid rgb(255, 255, 255);
     height: 30vmin;
-    background-color: azure;
+    background-color: #0c0e0e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,9 @@
 }
 
 .div-song-continer {
-    border: .3vmin solid black;
+    border: 1vmin solid rgb(255, 255, 255);
+    border-radius: 20%;
+    /* border: .3vmin solid black; */
     height: 20vmin;
     width: 25vmin;
     background-color: rgb(87, 231, 133);
